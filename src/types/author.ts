@@ -1,4 +1,4 @@
-export type AuthorId = number;
+export type AuthorId = string;
 
 export type Author = {
   id: AuthorId;

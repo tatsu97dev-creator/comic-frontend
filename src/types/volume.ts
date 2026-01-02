@@ -1,6 +1,6 @@
 import type { WorkId } from "./work";
 
-export type VolumeId = number;
+export type VolumeId = string;
 
 export type Volume = {
   id: VolumeId;

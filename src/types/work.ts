@@ -1,7 +1,7 @@
 import type { Author, AuthorId } from "./author";
 import type { Publisher, PublisherId } from "./publisher";
 
-export type WorkId = number;
+export type WorkId = string;
 
 export type Work = {
   id: WorkId;
